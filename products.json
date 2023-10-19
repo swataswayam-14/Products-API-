@@ -1,132 +1,132 @@
 [
     {
-      "name": "accent chair",
-      "price": 25,
-      "company": "marcos",
+      "name": "air conditioner",
+      "price": 2500,
+      "company": "LG",
       "rating": 4
     },
     {
-      "name": "albany sectional",
-      "price": 109,
-      "company": "liddy",
+      "name": "samsung galaxy s51",
+      "price": 109000,
+      "company": "Samsung",
       "rating": 5
     },
     {
-      "name": "albany table",
+      "name": "classy table",
       "price": 309,
-      "company": "liddy",
+      "company": "Casa living",
       "rating": 4.9
     },
     {
       "name": "armchair",
-      "price": 125,
-      "company": "marcos",
+      "price": 1250,
+      "company": "Dutin",
       "rating": 4.8
     },
     {
       "name": "bar stool",
-      "price": 40,
-      "company": "liddy",
+      "price": 4000,
+      "company": "Casa Living",
       "rating": 4.6
     },
     {
       "name": "dining table",
-      "price": 42,
-      "company": "ikea",
+      "price": 89000,
+      "company": "Casa Living",
       "rating": 4.55
     },
     {
-      "name": "emperor bed",
-      "price": 23,
-      "company": "ikea"
+      "name": "King size bed",
+      "price": 53000,
+      "company": "Casa Living"
     },
     {
       "name": "entertainment center",
-      "price": 59,
+      "price": 59000,
       "featured": true,
-      "company": "caressa"
+      "company": "Casa Living"
     },
     {
-      "name": "high-back bench",
-      "price": 39,
+      "name": "luxurious bench",
+      "price": 39999,
       "featured": true,
-      "company": "ikea"
+      "company": "Dutin"
     },
   
     {
       "name": "leather sofa",
-      "price": 99,
-      "company": "caressa"
+      "price": 99000,
+      "company": "Casa Living"
     },
     {
       "name": "modern bookshelf",
-      "price": 31,
+      "price": 67000,
       "featured": true,
-      "company": "caressa"
+      "company": "Dutin"
     },
     {
-      "name": "modern poster",
-      "price": 30,
-      "company": "liddy"
+      "name": "modern home automation",
+      "price": 88999,
+      "company": "LG"
     },
     {
       "name": "shelf",
-      "price": 30,
-      "company": "ikea"
+      "price": 67000,
+      "company": "Casa Living"
     },
     {
       "name": "simple chair",
-      "price": 109,
-      "company": "liddy"
+      "price": 1090,
+      "company": "Dutin"
     },
     {
-      "name": "sofa set",
-      "price": 129,
-      "company": "marcos"
+      "name": "sofa",
+      "price": 129000,
+      "company": "Casa Living"
     },
     {
-      "name": "suede armchair",
-      "price": 15,
-      "company": "caressa"
+      "name": "Flat chair",
+      "price": 1500,
+      "company": "Dutin"
     },
     {
-      "name": "utopia sofa",
-      "price": 79,
+      "name": "Baby sofa",
+      "price": 79000,
       "featured": true,
-      "company": "liddy"
+      "company": "Casa Living"
     },
     {
-      "name": "vase table",
-      "price": 120,
+      "name": "Painting abstract",
+      "price": 12000,
       "featured": true,
-      "company": "marcos"
+      "company": "Dutin"
     },
     {
       "name": "wooden bed",
-      "price": 25,
-      "company": "ikea"
+      "price": 25999,
+      "company": "Casa Living"
     },
     {
-      "name": "wooden desk",
-      "price": 15,
-      "company": "ikea"
+      "name": "C51 smartphone",
+      "price": 19000,
+      "company": "Samsung"
     },
     {
-      "name": "wooden desk",
-      "price": 40,
-      "company": "ikea"
+      "name": "A51 smartphone",
+      "price": 40000,
+      "company": "Samsung"
     },
     {
-      "name": "wooden table",
-      "price": 23,
+      "name": "Marvel Toys",
+      "price": 2300,
       "featured": true,
-      "company": "caressa"
+      "company": "Samsung"
     },
     {
-      "name": "a first wooden table",
-      "price": 23,
+      "name": "Wall Posters",
+      "price": 14000,
       "featured": true,
-      "company": "caressa"
+      "company": "Dutin"
     }
   ]
   
