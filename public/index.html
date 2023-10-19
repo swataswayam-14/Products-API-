@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Products</title>
+  <style>
+    /* CSS code goes here */
+  </style>
+</head>
+<body>
+  <h1>My Products</h1>
+
+  <ul id="products"></ul>
+
+  <form id="add-product-form">
+    <input type="text" name="name" placeholder="Product Name">
+    <input type="text" name="company" placeholder="Company Name">
+    <input type="number" name="price" placeholder="Price">
+    <input type="number" name="rating" placeholder="Rating">
+    <button type="submit">Add Product</button>
+  </form>
+
+  <script>
+    // Fetch the JSON data
+    const products = JSON.parse(`
+      [
+        {
+          "id": 1,
+          "name": "Product 1",
+          "company": "Acme Corporation",
+          "price": 100,
+          "rating": 4.5
+        },
+        {
+          "id": 2,
+          "name": "Product 2",
+          "company": "XYZ Industries",
+          "price": 200,
+          "rating": 3.5
+        },
+        ...
+      ]
+    `);
+
+    // Display the products in the HTML
+    const productsList = document.getElementById('products');
+
+    products.forEach((product) => {
+      const productItem = document.createElement('li');
+
+      productItem.innerHTML = `
+        <h2>${product.name}</h2>
+        <p>Company: ${product.company}</p>
+        <p>Price: $${product.price}</p>
+        <p>Rating: <span class="math-inline">\{product\.rating\}</p\>
+<button type\="button" class\="delete" data\-product\-id\="</span>{product.id}">Delete</button>
+        <button type="button" class="update" data-product-id="${product.id}">Update</button>
+      `;
+
+      productsList.appendChild(productItem);
+    });
+
+    // Add a click event listener to the "Delete" buttons
+    document.querySelectorAll('.delete').forEach((button) => {
+      button.addEventListener('click', () => {
+        // Delete the product
+        const productId = button.getAttribute('data-product-id');
+
+        // Make an HTTP request to the backend to delete the product
+        // ...
+
+        // Remove the product item from the HTML
+        button.closest('li').remove();
+      });
+    });
+
+    // Add a click event listener to the "Update" buttons
+    document.querySelectorAll('.update').forEach((button) => {
+      button.addEventListener('click', () => {
+        // Update the product
+        const productId = button.getAttribute('data-product-id');
+
+        // Make an HTTP request to the backend to get the product data
+        // ...
+
+        // Open a modal dialog to edit the product data
+        // ...
+
+        // When the user clicks the "Save" button in the modal dialog,
+        // make an HTTP request to the backend to update the product
+        // ...
+
+        // Close the modal dialog
+        // ...
+
+        // Update the product item in the HTML with the updated product data
+        // ...
+      });
+    });
+
+    // Add a submit event listener to the "Add Product" form
+    document.getElementById('add-product-form').addEventListener('submit', (event) => {
+      // Prevent the default form submission
+      event.preventDefault();
+
+      // Get the product data from the form
+      const name = event.target.elements.name.value;
+      const company = event.target.elements.company.value;
+      const price = event.target.elements.price.value;
+      const rating = event.target.elements.rating.value;
+
+      // Make an HTTP request to the backend to add the product
+      // ...
+
+      // Clear the form
+      event.target.reset();
+    });
+  </script>
+</body>
+</html>
